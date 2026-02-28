@@ -1,7 +1,7 @@
 import { connectDB } from "@/lib/db";
 
 export default async function Home() {
-  await connectDB();
+
   console.log("MongoDB Connected Successfully!");
 
   return (
